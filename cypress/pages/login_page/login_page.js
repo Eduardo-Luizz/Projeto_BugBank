@@ -91,4 +91,12 @@ export default class Login extends Base {
     static validate_modal_invalid_login_is_visible() {
         super.validateElementExistsByXpath(el.LIST.MODAL_INCORRECT_LOGIN)
     }
+
+    static validate_warning_input_email() {
+        super.validateElementMessageTextByXpath(el.LIST.INPUT_WARNING_EMAIL, fixed_messages.input_warning_message)
+    }
+
+    static validate_warning_input_password() {
+        super.validateElementMessageTextByXpath(el.LIST.INPUT_WARNING_PASS, fixed_messages.input_warning_message)
+    }
 }
