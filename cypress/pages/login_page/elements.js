@@ -14,6 +14,8 @@ export const ELEMENTS = {
         MESSAGE_WELCOME: `//*[@id="__next"]/div/div[2]/div/div[2]/p[2]`,
         BTN_EYE: `//*[@id="__next"]/div/div[2]/div/div[1]/form/div[2]/button/span/img`,
         MESSAGE_INVALID_DATA: `//*[@id="modalText"]`,
-        MODAL_INCORRECT_LOGIN: `//*[@id="__next"]/div/div[3]/div`
+        MODAL_INCORRECT_LOGIN: `//*[@id="__next"]/div/div[3]/div`,
+        INPUT_WARNING_EMAIL: `//*[@id="__next"]/div/div[2]/div/div[1]/form/div[1]/p`,
+        INPUT_WARNING_PASS: `//*[@id="__next"]/div/div[2]/div/div[1]/form/div[2]/div/p`
     }
 }
