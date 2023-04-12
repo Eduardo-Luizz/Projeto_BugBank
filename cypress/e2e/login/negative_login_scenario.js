@@ -8,6 +8,10 @@ Given('que o usuário esteja na página de login', () => {
     Login.expect_url()
 })
 
+When('ele clicar no botão "Entrar" sem preencher o campo "usuário" ou o campo "senha"', () => {
+    Login.click_acess_button()
+})
+
 When('preencher o campo "usuário" com "usuário_inválido"', () => {
     Login.type_invalid_email()
 })
@@ -18,6 +22,15 @@ When('preencher o campo "senha" com "senha_inválida"', () => {
 
 When('clicar no botão "Entrar"', () => {
     Login.click_acess_button()
+})
+
+Then('não deverá ser redirecionado para a página inicial do sistema', () => {
+    Login.expect_url()
+})
+
+Then('ele deverá ver uma mensagem abaixo do campo informando que ambos os campos são obrigatórios', () => {
+    Login.validate_warning_input_email()
+    Login.validate_warning_input_password()
 })
 
 Then('deve ser exibido um modal e uma mensagem de erro informando que as credenciais de login são inválidas', () => {
