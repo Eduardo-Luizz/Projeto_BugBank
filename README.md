@@ -8,7 +8,9 @@ Para utilizar este projeto, é necessário ter o Node.js e o gerenciador de paco
 
 ## Configuração
 
-Antes de executar os testes, é necessário configurar os arquivos cypress.config.js e plugins/index.js com as configurações necessárias para atender a necessidade do cypress entender o BDD tipo de teste adotado.
+Antes de executar os testes, é necessário configurar os arquivos cypress.config.js e plugins/index.js com as configurações necessárias para atender a necessidade do cypress entender o BDD tipo de teste adotado, basta navegar pelos arquivos mencionados para visualizar as configurações.
+
+Importante que antes de executar estas configurações é necessário instalar todas as depedências, procedimento descrito em "Instalação".
 
 ## Execução dos testes
 
