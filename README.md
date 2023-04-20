@@ -21,3 +21,5 @@ Este projeto faz uso da lib mochawesome para gerar reports das automações, ger
 
 Para executar o scrip de report basta utilizar o comando:
 `npx cypress run`
+
+Este comando gerará um .HTML no caminho cypress/reports/mochawesome/assets e também serão gerados vídeos das execuções no caminho cypress/videos.
