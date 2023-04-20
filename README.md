@@ -15,3 +15,9 @@ Antes de executar os testes, é necessário configurar os arquivos cypress.confi
 Para executar os testes, basta utilizar o comando:
 `npx cypress open`
 
+
+## Geração de reports
+Este projeto faz uso da lib mochawesome para gerar reports das automações, gerando informações úteis para manipulação e controle dos testes auxiliando principalmente em cenário de regressão.
+
+Para executar o scrip de report basta utilizar o comando:
+`npx cypress run`
